@@ -1,4 +1,10 @@
 <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Obsługa żądania POST
+} else {
+    // Obsługa innych metod żądania (np. GET)
+}
+
 // Połączenie z bazą danych
 $db_host = 'localhost';
 $db_user = 'nazwa_uzytkownika';
